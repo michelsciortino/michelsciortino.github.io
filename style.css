@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+@font-face {
+  font-family: 'GLACIAL INDIFFERENCE';
+  src: url('GlacialIndifference-Bold.otf');
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.fill-horizontal {
+  width: 100%;
+}
+
+.centered {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.head-column {
+  width: 650px;
+  background-color: #335384;
+  text-align: center;
+  color: white;
+}
+
+.body-column {
+  width: 100%;
+  background-color: white;
+  color: rgb(68, 68, 64);
+  padding: 30px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  margin: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 250px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: clip;
+  object-fit: cover;
+}
+
+.section {
+  text-align: left;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 50px;
+}
+
+.section-title {
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  line-height: 2em;
+  font-size: 20px;
+  letter-spacing: 0.25em;
+}
+
+.section-content {
+  font-family: 'Assistant', sans-serif;
+  font-size: 18px;
+  text-align: left;
+  width: auto;
+  line-height: 2em;
+}
+
+.head-column table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+
+.head-column td {
+  text-align: left;
+  vertical-align: middle;
+}
+
+table.icons td:first-child {
+  text-align: right;
+  width: 18px;
+  padding-right: 20px;
+}
+
+.head-column td>svg {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+
+td>a {
+  color: white;
+}
+
+.body-column .section-title {
+  font-weight: 900;
+  color: rgb(91, 167, 209);
+  line-height: 3em;
+}
+
+.body-column .section-content{
+  font-weight: 400;
+  line-height: 1.4em;
+  letter-spacing: 0.05em;
+}
+
+.main-title {
+  margin-bottom: 50px;
+}
+
+.main-title-text {
+  font-family: 'GLACIAL INDIFFERENCE';
+  font-weight: 700;
+  font-size: 90px;
+  font-style: normal;
+  color: rgb(51, 83, 132);
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  letter-spacing: 0.037em;
+}
+
+.main-title-line {
+  height: 12px;
+  padding-top: 20px;
+}
+
+.main-title-line div {
+  background-color: black;
+  height: 3px;
+  width: 150px;
+}
+
+.main-subtitle {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(91, 167, 209);
+
+  line-height: 1.42;
+  letter-spacing: 0.3em;
+  font-size: 28px;
+}
+
+.body-column .section{
+  margin-bottom: 30px;
+}
+
+.section-content .title{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.section-content .sub-title{
+  font-family: 'Assistant';
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.section-content .content{
+  margin-top: 8px;
+}
+
+.project{
+  margin-bottom: 20px;
+}
