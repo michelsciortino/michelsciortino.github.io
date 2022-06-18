@@ -28,7 +28,8 @@ body {
 
 .head-column {
   width: 650px;
-  background-color: #335384;
+  /*background-color: #335384;*/
+  background-color: #1b1b1d;
   text-align: center;
   color: white;
 }
@@ -112,7 +113,8 @@ td>a {
 
 .body-column .section-title {
   font-weight: 900;
-  color: rgb(91, 167, 209);
+  /*color: rgb(91, 167, 209);*/
+  color: #43526e;
   line-height: 3em;
 }
 
@@ -131,7 +133,8 @@ td>a {
   font-weight: 700;
   font-size: 90px;
   font-style: normal;
-  color: rgb(51, 83, 132);
+  /*color: rgb(51, 83, 132);*/
+  color: #2c3648;
   text-decoration: none;
   text-transform: uppercase;
   line-height: 1.2em;
@@ -144,7 +147,8 @@ td>a {
 }
 
 .main-title-line div {
-  background-color: black;
+  /*background-color: black;*/
+  background-color: #141821;
   height: 3px;
   width: 150px;
 }
@@ -153,7 +157,8 @@ td>a {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
   font-style: normal;
-  color: rgb(91, 167, 209);
+  /*color: rgb(91, 167, 209);*/
+  color: #43526e;
   line-height: 1.42;
   letter-spacing: 0.3em;
   font-size: 28px;
